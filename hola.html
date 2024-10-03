@@ -1,3 +1,221 @@
-<p>Hola mundo</p>
-<h1>Hola Mundo</h1>
-<p>verdad</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Castellanos - Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mi Portafolio</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#portfolio"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades"
+                                >Habilidades</a
+                            >
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+    </div> 
+    <header class="header" id="portfolio">
+        <img src="/img/interfoto.png" class="imagen" alt="Foto de perfil">
+        <h1>Hola, soy Marcos Castellanos</h1>
+        <p>Y esta es una práctica de desarrollo de interfaces.</p>
+        <div class="social-icons">
+            <a href="https://x.com/HumansNoContext/status/1841720851340681464/photo/1"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/dablim-solu%C3%A7%C3%B5es-gr%C3%A1ficas"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Marcos-Castellanos-Sanmartin/Curso2425"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/batman/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
+
+    <section class="section" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mi portfolio responsive</h2>
+            <p>Tener un portafolio responsive es fundamental para destacar a la hora
+            de conseguir una oportunidad laboral del desarrollo web y
+            aplicaciones móviles. Un portafolio que se adapte a diferentes
+            dispositivos no solo demuestra tus habilidades técnica, sino que
+            también refleja tu atención al detalle y comprensión de las
+            necesidades de los usuarios. Dado que los reclutadores evaluaran tu
+            capacidad para crear soluciones eficientes y visualmente atractivas,
+            contar con un portafolio responsive te dará una ventaja al mostrar que
+            dominas las tecnologías más actuales como ahora HTML, CSS y
+            Bootstrap.</p>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Habilidades</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>HTML</h5>
+                    <div class="progress mb-3">
+                        <div
+                            class="progress-bar bg-success"
+                            role="progressbar"
+                            style="width: 65%"
+                            aria-valuenow="90"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            65%
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>CSS</h5>
+                    <div class="progress mb-3">
+                        <div
+                            class="progress-bar bg-info"
+                            role="progressbar"
+                            style="width: 65%"
+                            aria-valuenow="80"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            65%
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>JavaScript</h5>
+                    <div class="progress mb-3">
+                        <div
+                            class="progress-bar bg-warning"
+                            role="progressbar"
+                            style="width: 35%"
+                            aria-valuenow="70"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            35%
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5>PHP</h5>
+                    <div class="progress mb-3">
+                        <div
+                            class="progress-bar bg-danger"
+                            role="progressbar"
+                            style="width: 30%"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                        30%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="work">
+        <div class="container">
+            <h2 class="section-title">Mi trabajo</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-question fa-3x"></i>
+                            <h5 class="card-title">No se que poner</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-question fa-3x"></i>
+                            <h5 class="card-title">Sigo sin saber que poner</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 id="hobbies">Mis hobbies</h2>
+    <section class="imagenes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="/img/hobby1.jpg" class="img-fluid" alt="Imagen 1">
+                        <div class="overlay">Pelea de latigos</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="/img/hobby2.jpg" class="img-fluid" alt="Imagen 2">
+                        <div class="overlay">Natación</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="/img/hobby3.jpg" class="img-fluid" alt="Imagen 3">
+                        <div class="overlay">Videojuegos</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img src="/img/hobby4.jpg" class="img-fluid" alt="Imagen 4">
+                        <div class="overlay">Pintura</div>
+                    </div>
+                </div>
+            </div>
+</section>
+    <div class="formul">
+    <div class="mb-3">
+        <h1 id="contacto">Contacta conmigo</h1>
+        <label for="exampleFormControlInput1" class="form-label">Email </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
